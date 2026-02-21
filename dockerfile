@@ -1,4 +1,3 @@
 FROM n8nio/n8n:latest
 EXPOSE 5678
-ENTRYPOINT ["n8n"]
-CMD ["start"]
+CMD n8n start
